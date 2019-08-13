@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+	<catalog_product_view>
+		<!--<reference name="product.info">
+			<block type="facebookcomment/facebookcomment" name="facebookcomment" as="other" template="facebookcomment/facebookcomment.phtml" />
+		</reference>-->
+		<reference name="product.info.additional">
+			<block type="facebookcomment/facebookcomment" name="facebookcomment" before="-" template="facebookcomment/facebookcomment.phtml" />
+		</reference>
+	</catalog_product_view>
+</layout> 

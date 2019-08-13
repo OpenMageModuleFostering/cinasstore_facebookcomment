@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/cinasstore_facebookcomment",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Show Facebook Comment box on Product Info page for social sharing of comments.",
+    "authors": [
+    {
+        "name": "Cinas Technologies",
+        "email": "sales@cinastechnologies.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

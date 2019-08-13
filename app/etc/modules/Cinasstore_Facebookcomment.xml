@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cinasstore_Facebookcomment>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Cinasstore_Facebookcomment>
+    </modules>
+</config> 

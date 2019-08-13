@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <cinasstore translate="label">
+            <label>Cinasstore Extension</label>
+            <sort_order>400</sort_order>
+        </cinasstore>
+    </tabs>
+
+	<sections>
+        <facebookcomment translate="label" module="facebookcomment">
+            <class>separator-top</class>
+            <label>Facebook comment</label>
+            <tab>cinasstore</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>300</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<general translate="label">
+                    <label>Facebook Comment Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+						<unique_id_of_site translate="label">
+                            <label>Facebook App ID</label>
+                            <frontend_type>text</frontend_type>              
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment><![CDATA[<a href="http://developers.facebook.com/setup/" target="_bank">Create App</a>]]></comment>
+                        </unique_id_of_site>
+						<language translate="label">
+                            <label>Language</label>
+							<source_model>facebookcomment/system_config_language</source_model>
+                            <frontend_type>select</frontend_type>              
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment></comment>
+                        </language>
+						
+						<show_number_of_comment translate="label">
+                            <label>Show number of comment</label>
+                            <frontend_type>text</frontend_type>              
+                            <sort_order>15</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment></comment>
+                        </show_number_of_comment>
+						
+						<width_of_comment_box translate="label">
+                            <label>Width of comment box</label>
+                            <frontend_type>text</frontend_type>                     
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment>pixel</comment>
+                        </width_of_comment_box>					
+						
+					</fields>
+				</general>
+				
+            </groups>
+        </facebookcomment>  
+    </sections>
+</config>

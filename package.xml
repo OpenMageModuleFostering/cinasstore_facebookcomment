@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>cinasstore_facebookcomment</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show Facebook Comment box on Product Info page for social sharing of comments.</summary>
+    <description>Show Facebook Comment box on Product Info page for social sharing of comments.&#xD;
+&#xD;
+This extension provide facility to assign Facebook App ID and other settings to show facebook comment.</description>
+    <notes>First Preview Release</notes>
+    <authors><author><name>Cinas Technologies</name><user>Cinas</user><email>sales@cinastechnologies.com</email></author></authors>
+    <date>2013-12-07</date>
+    <time>17:43:30</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Cinasstore_Facebookcomment.xml" hash="1f815f07f8e39a961d4d139290fa3d69"/></dir></target><target name="magelocal"><dir name="Cinasstore"><dir name="Facebookcomment"><dir name="Block"><dir name="Adminhtml"><dir name="Facebookcomment"><dir name="Edit"><file name="Form.php" hash="7d4809df2793a95b110024b12c4671c3"/><dir name="Tab"><file name="Form.php" hash="2bf97bdfc20fff6dba9cb23a52d0087f"/></dir><file name="Tabs.php" hash="137488445172cdb259a73b5289fb8d2f"/></dir><file name="Edit.php" hash="89d5012e91e1dbe84ff6b172fbc32048"/><file name="Grid.php" hash="77c4ff08a6dec36b0b208e1fa3ad612a"/></dir><file name="Facebookcomment.php" hash="db64e76e09da99779f329c10cc0c52ea"/></dir><file name="Facebookcomment.php" hash="8bc0bab419d179ea687fa82a81d82645"/></dir><dir name="Helper"><file name="Data.php" hash="7a2ff5c168186fe2c528d111c34262d2"/></dir><dir name="Model"><file name="Facebookcomment.php" hash="eea17c313df54da5f61fadde02512b29"/><dir name="Mysql4"><dir name="Facebookcomment"><file name="Collection.php" hash="a2d7bbdda182e1d51538d74e891afc58"/></dir><file name="Facebookcomment.php" hash="083d5f33285e22967a9d640b11d127d7"/></dir><file name="Observer.php" hash="9370d87fadb9f40ee3786b6d38582df1"/><file name="Status.php" hash="199e1096b521b68daf0b3b7bd59c38b6"/><dir name="System"><dir name="Config"><file name="Language.php" hash="35ebeffb7dd0aee286ae77719a288476"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="FacebookcommentController.php" hash="84f41649dd38bd4f1be82faeee375e74"/></dir><file name="IndexController.php" hash="a3e62470627206dc8d54c1575fa13d9e"/></dir><dir name="etc"><file name="adminhtml.xml" hash="92f6deddfd350101151bf55df2f0a6f4"/><file name="config.xml" hash="0eeb7b067661d6fe25e89eb5ff09274d"/><file name="system.xml" hash="1d2ef5d7b007e2e9e5195cd992a2df99"/></dir><dir name="sql"><dir name="Facebookcomment_setup"><file name="mysql4-install-0.1.0.php" hash="02d1695fc9b55e87cceb47fd15e14ab6"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="8c8ea981a81cf84c52b864438a10db1a"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="facebookcomment.xml" hash="c5b126db53204e79c86dc5bf6375a056"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="facebookcomment.xml" hash="e4e8252616fba14add25f08a82ca6d72"/></dir><dir name="template"><dir name="facebookcomment"><file name="facebookcomment.phtml" hash="b91974a93079f2897da0cd21fd3da17d"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

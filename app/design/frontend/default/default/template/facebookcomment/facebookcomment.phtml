@@ -1,0 +1,10 @@
+<link href="<?php echo $this->getCssUrl();?>" rel="stylesheet" type="text/css">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/<?php echo $this->getLanguage();?>/all.js#xfbml=1&appId=<?php echo $this->getUniqueId();?>";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="<?php echo $this->getProductPageUrl();?>" data-numposts="<?php echo $this->numberOfCommment();?>" data-width="<?php echo $this->widthOfCommmentBox();?>" data-colorscheme="light"></div>
